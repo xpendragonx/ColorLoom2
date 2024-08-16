@@ -134,7 +134,7 @@ function resetSystem() {
   setupCells();
   drawCells();
 
-  playDing();
+  // playDing();
   sound = 3;
 }
 
@@ -143,7 +143,7 @@ function iterate() {
 
   drawCells();
 
-  playSynth();
+  // playSynth();
 }
 
 function getRule() {
